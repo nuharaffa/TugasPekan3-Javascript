@@ -35,8 +35,6 @@ let productBin = {
     "message": "success"
   }
 
-
-// var quantity = productBin.data.length;
 var quantity = productBin.data.length;
 var quantityTotal = 0;
 
@@ -45,4 +43,4 @@ for(let i = 0; i < quantity; i++){
  }
 
  console.log("Quantity total = " + quantityTotal);
-// console.log(quantity)
+
