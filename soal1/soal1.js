@@ -1,5 +1,6 @@
 const prompt = require('prompt-sync')({sigint: true});
-const number = prompt('Isi angka: ');
+console.log("Selamat Datang di Calculator Akar Kuadrat")
+const number = prompt('Isi angka genap: ');
 
 let x = number;
 
@@ -13,7 +14,7 @@ if (x < 0) {
  {
     console.log("Tidak bisa input bilangan ganjil");
 } else {
-    console.log("Sukses jawabannya adalah " + calcSqrt(x))
+    console.log(`Sukses! Akar kuadrat dari ${x} adalah ` + calcSqrt(x))
 } 
 
 
